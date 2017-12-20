@@ -7,4 +7,5 @@ $contactForm.submit(function(e) {
 		data: $(this).serialize(),
 		dataType: 'json'
 	});
+	$(this).append('<p align="center"><h3>Email envoy&eacute;</h3></p>')
 });
