@@ -1,6 +1,7 @@
 var $contactForm = $('#contact-form');
 $contactForm.submit(function(e) {
 	e.preventDefault();
+	alert($(this).serialize());
 	$.ajax({
 		url: 'https://formspree.io/tcaenen@gmail.com',
 		method: 'POST',
