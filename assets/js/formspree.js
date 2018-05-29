@@ -5,7 +5,8 @@ $contactForm.submit(function(e) {
 	$.ajax({
 		url: "https://formspree.io/tcaenen@gmail.com",
 		method: 'POST',
-		data: $(this).serialize(),
+		//data: $(this).serialize(),
+		data: {message: "hello!"},
 		dataType: 'json'
 	});
 	$(this).append('<p align="center"><h3>Email envoy&eacute;</h3></p>')
