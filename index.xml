@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thibaut Caenen</title>
+    <link>https://tcaenen.github.io/</link>
+    <description>Recent content on Thibaut Caenen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 29 Jan 2020 10:53:36 +0100</lastBuildDate>
+    
+	<atom:link href="https://tcaenen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://tcaenen.github.io/posts/helloworld/</link>
+      <pubDate>Wed, 29 Jan 2020 10:53:36 +0100</pubDate>
+      
+      <guid>https://tcaenen.github.io/posts/helloworld/</guid>
+      <description>&lt;h1 id=&#34;cheatsheet&#34;&gt;Cheatsheet&lt;/h1&gt;
+&lt;h1 id=&#34;h1-heading&#34;&gt;h1 Heading&lt;/h1&gt;
+&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;
+&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;
+&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;
+&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;
+&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This is bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This is italic text&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;del&gt;Deleted text&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:&lt;/p&gt;
+&lt;p&gt;$$
+\sum_{n=1}^{\infty} 2^{-n} = 1
+$$&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Heading&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Another heading&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Block quotes are
+written like so.&lt;/p&gt;
+&lt;p&gt;They can span multiple paragraphs,
+if you like.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Some text, and some &lt;code&gt;code&lt;/code&gt; and then a nice plain &lt;a href=&#34;https://github.com/davidhampgonsalves/davidhampgonsalves.com-hugo&#34; title=&#34;title text!&#34;&gt;link with title&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;and then&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a list by starting a line with &lt;code&gt;+&lt;/code&gt;, &lt;code&gt;-&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Sub-lists are made by indenting 2 spaces:
+&lt;ul&gt;
+&lt;li&gt;Marker character change forces new list start:
+&lt;ul&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Very easy!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;vs.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Inline &lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-js&#34; data-lang=&#34;js&#34;&gt;&lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;var&lt;/span&gt; foo = &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;function&lt;/span&gt; (bar) {
+  &lt;span style=&#34;color:#fff;font-weight:bold&#34;&gt;return&lt;/span&gt; bar++;
+};
+
+console.log(foo(&lt;span style=&#34;color:#ff0;font-weight:bold&#34;&gt;5&lt;/span&gt;));
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;hugo-shortcode-for-figure&#34;&gt;Hugo shortcode for figure&lt;/h2&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://tcaenen.github.io/images/N90.jpg&#34;
+         alt=&#34;N90 nebula, &amp;amp;ldquo;New stars shed light on the past&amp;amp;rdquo; by ESA/Hubble&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;N90 nebula, &amp;ldquo;New stars shed light on the past&amp;rdquo; by ESA/Hubble&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr&gt;
+&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>A propos</title>
+      <link>https://tcaenen.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tcaenen.github.io/about/</guid>
+      <description>Lien vers mon CV
+Développeur très orienté base de données et en particulier Oracle, je suis à l&amp;rsquo;aise sur les environnements UNIX/LINUX.
+Je suis spécialisé sur l&amp;rsquo;intégration des données : de leur récupération au chargement brut de diverses sources (fichiers plats, web services, &amp;hellip;) en passant par la qualité de données, l&amp;rsquo;aggrégation, la restitution, l&amp;rsquo;exposition. De l&amp;rsquo;origine des données jusqu&amp;rsquo;au décisionnel. Je monte rapidement en compétence sur les technologies utilisées par mes clients, j&amp;rsquo;ai une grande autonomie un très bon relationnel et je fais preuve d&amp;rsquo;une bonne souplesse quand c&amp;rsquo;est nécessaire !</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://tcaenen.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tcaenen.github.io/contact/</guid>
+      <description>t.caenen@gmail.com</description>
+    </item>
+    
+  </channel>
+</rss>
